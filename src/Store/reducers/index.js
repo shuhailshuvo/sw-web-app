@@ -1,6 +1,18 @@
+/**
+ * Root Reducer
+ */
 import { combineReducers } from "redux";
-import { dataSet } from "./reducers";
+import storage from "localforage";
 
-export default combineReducers({
-  dataSet
-});
+const appReducer = combineReducers({});
+
+const rootReducer = (state, action) => {
+  if (action.type === "LOG_OUT") {
+    state = {};
+    storage.removeItem("persist:login");
+  }
+
+  return appReducer(state, action);
+};
+
+export default rootReducer;
