@@ -15,7 +15,7 @@ class Home extends Component {
   componentWillUnmount() {}
 
   render() {
-    return <div>Welcome</div>;
+    return <div>Hello World</div>;
   }
 }
 
