@@ -1,6 +1,11 @@
-/* eslint-disable */
-import React, { Component } from "react";
-import { connect } from "react-redux";
+/**
+ * /* eslint-disable
+ *
+ * @format
+ */
+
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 class Home extends Component {
   constructor(props) {
@@ -15,7 +20,7 @@ class Home extends Component {
   componentWillUnmount() {}
 
   render() {
-    return <div>Welcome</div>;
+    return <div>hi there how are you. I am from Home</div>;
   }
 }
 

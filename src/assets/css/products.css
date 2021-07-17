@@ -1,0 +1,85 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+.firstContainer {
+  background-color: rgba(26, 235, 182, 255);
+  position: fixed;
+}
+
+.secondContainer {
+  margin: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(26, 235, 182, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 01), 0 6px 20px 0 rgba(0, 0, 0, 01);
+}
+.horizontalBar {
+  width: 100%;
+  height: 17vh;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.horizontalBar img {
+  display: inline;
+  max-height: 20vh;
+}
+
+.user {
+  margin-right: 40px;
+  float: right;
+  height: 70%;
+}
+.verticalBar {
+  list-style-type: none;
+  height: 42%;
+  width: 20vh;
+}
+.verticalBar img {
+  display: inline;
+  max-width: 10vh;
+  max-width: 10vh;
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 01);
+}
+.verticalBar li {
+  display: inline;
+  color: #000;
+}
+.logoAndProductContainer {
+  display: flex;
+}
+.productContainer {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  background-color: white;
+}
+.product {
+  margin-top: 15px;
+  max-width: 200px;
+  max-height: 220px;
+  margin: 15px 10px;
+  flex-direction: row;
+}
+.product > p {
+  display: inline;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(26, 235, 182, 255);
+  max-width: 200px;
+}
+
+.product img {
+  max-width: 200px;
+  max-height: 200px;
+  border: 1px solid rgb(141, 137, 137);
+}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .productContainer {
+    flex-direction: column;
+  }
+}
