@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../assets/CSS/Login.module.css";
-import logo from "../assets/Images/logo.png";
+import styles from "../assets/css/Login.module.css";
+import logo from "../assets/images/logo.png";
 
 export default class Signup extends React.Component {
   constructor(props) {
@@ -24,15 +24,13 @@ export default class Signup extends React.Component {
   };
 
   submitHandler = (e) => {
-    const { email, password } = this.state;
+    // const { email, password } = this.state;
     e.preventDefault();
-    alert(email, password);
   };
 
   newuserHandler = (e) => {
-    const { email, password } = this.state;
+    // const { email, password } = this.state;
     e.preventDefault();
-    console.log(email, password);
   };
 
   render() {
@@ -51,32 +49,38 @@ export default class Signup extends React.Component {
                 <h3>Signup</h3>
               </div>
               <div className={styles.Inputs}>
-                <label htmlFor='emailform'>Email</label>
+                <label htmlFor='emailform'>
+                  Email
+                  <input
+                    type='email'
+                    placeholder='joe@email.com'
+                    name='emailform'
+                    value={email}
+                    onChange={this.handleChange}
+                    required
+                  />
+                </label>
                 <br />
-
-                <input
-                  type='email'
-                  placeholder='joe@email.com'
-                  name='emailform'
-                  value={email}
-                  onChange={this.handleChange}
-                  required
-                />
                 <br />
+                <label htmlFor='passwordform'>
+                  Password
+                  <input
+                    type='password'
+                    placeholder='Enter your password'
+                    name='passwordform'
+                    value={password}
+                    onChange={this.handleChange}
+                    required
+                  />
+                </label>
                 <br />
-                <label htmlFor='passwordform'>Password</label>
-                <br />
-
-                <input
-                  type='password'
-                  placeholder='Enter your password'
-                  name='passwordform'
-                  value={password}
-                  onChange={this.handleChange}
-                  required
-                />
-                <br />
-                <span className={styles.newuser} onClick={this.newuserHandler}>
+                <span
+                  className={styles.newuser}
+                  onClick={this.newuserHandler}
+                  onKeyDown={this.newuserHandler}
+                  role='link'
+                  tabIndex={-1}
+                >
                   returning user?
                 </span>
                 <br />

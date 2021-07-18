@@ -9,7 +9,7 @@ const appReducer = combineReducers({
 
 const rootReducer = (state, action) => {
   if (action.type === "LOG_OUT") {
-    state = {};
+    // state = {};
     storage.removeItem("persist:login");
   }
 

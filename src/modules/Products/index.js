@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import "../../assets/css/products.css";
-//assets
+//  assets
 import HomeIcon from "../../assets/images/home.png";
 import product1 from "../../assets/images/product1.jpg";
 import product2 from "../../assets/images/product2.jpg";

@@ -8,17 +8,18 @@ export const login = (email, password) => (dispatch) => {
     type: LOGGING_IN,
   });
 
-  axios.post("/url", {email, passord})
-    .then(response=>{
+  axios
+    .post("/url", { email, password })
+    .then((response) => {
       dispatch({
         type: LOGGED_IN,
-        token: response.data.token
-      })
+        token: response.data.token,
+      });
     })
-    .catch(e=>{
+    .catch((e) => {
       dispatch({
         type: LOGGED_IN,
-        token: response.data.token
-      })
-    })
+        error: e.response.data.message,
+      });
+    });
 };
