@@ -1,42 +1,42 @@
-/** @format */
-
-// import styles from '../../../src/assets/css/Products.module.css';
-
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import '../../assets/css/products.css';
-import home from '../../assets/Image/home.png';
-import product1 from '../../assets/Image/product1.jpg';
-import product2 from '../../assets/Image/product2.jpg';
-import product3 from '../../assets/Image/product3.png';
-import trolley from '../../assets/Image/trolley.png';
-import user from '../../assets/Image/userLogo.png';
-import logo from '../../assets/Image/wallet.png';
-import walletLogo from '../../assets/Image/walletLogo.png';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import "../../assets/css/products.css";
+//assets
+import HomeIcon from "../../assets/images/home.png";
+import product1 from "../../assets/images/product1.jpg";
+import product2 from "../../assets/images/product2.jpg";
+import product3 from "../../assets/images/product3.png";
+import trolley from "../../assets/images/trolley.png";
+import user from "../../assets/images/userLogo.png";
+import logo from "../../assets/images/wallet.png";
+import walletLogo from "../../assets/images/walletLogo.png";
 
 class Product extends Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
-  componentDidMount() {}
-  componentDidUpdate(prevProps, prevState) {}
-  componentWillUnmount() {}
+
+  // componentDidMount() {}
+
+  // componentDidUpdate(prevProps, prevState) {}
+
+  // componentWillUnmount() {}
+
   render() {
-      
     return (
-      <div className="firstContainer">
-        <div className="secondContainer">
-          <div className="horizontalBar">
+      <div className='firstContainer'>
+        <div className='secondContainer'>
+          <div className='horizontalBar'>
             <img src={logo} alt='Logo' />
 
             <img className='user' src={user} alt='User' />
           </div>
-          <div className="logoAndProductContainer">
-            <div className="verticalBar">
+          <div className='logoAndProductContainer'>
+            <div className='verticalBar'>
               <ul>
                 <li>
-                  <img src={home} alt='Logo' />
+                  <img src={HomeIcon} alt='Logo' />
                 </li>
                 <li>
                   <img src={walletLogo} alt='User' />
@@ -46,16 +46,16 @@ class Product extends Component {
                 </li>
               </ul>
             </div>
-            <div className="productContainer">
-              <div className="product">
-                <p className="products">Aanlytics</p>
+            <div className='productContainer'>
+              <div className='product'>
+                <p className='products'>Aanlytics</p>
                 <img src={product1} alt='Logo' />
               </div>
-              <div className="product">
+              <div className='product'>
                 <p>Smart Watch with Rate Alert</p>
                 <img src={product2} alt='Logo' />
               </div>
-              <div className="product">
+              <div className='product'>
                 <p>Meta Trader App</p>
                 <img src={product3} alt='Logo' />
               </div>
@@ -68,7 +68,7 @@ class Product extends Component {
 }
 
 function mapStateToProps(state) {
-  return {};
+  return state;
 }
 
 export default connect(mapStateToProps)(Product);

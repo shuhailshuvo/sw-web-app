@@ -1,9 +1,6 @@
 import React from 'react';
-import { WalletDiv } from './WalletElement';
 import './wallet.style.css';
-import home from '../../home.png';
-import walletLogo from '../../walletLogo.png';
-import trolley from '../../trolley.png';
+import { WalletDiv } from './WalletElement';
 
 const Wallet = () => {
     return (

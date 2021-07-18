@@ -1,25 +1,21 @@
 import React from 'react';
-import { ParentDiv, Div, ContainerNav } from './ParenComponentElement';
 import Navbar from '../Navbar';
 import Sidebar from '../Sidebar';
 import Wallet from '../Wallet';
+import { ContainerNav, ParentDiv } from './ParenComponentElement';
 
 const ParentComponent = () => {
     return (
         <React.Fragment>
             <ParentDiv>
-                <Div>
-                    <Navbar/ >
+                <div>
+                    <Navbar/>
                     <ContainerNav>
-                        <Sidebar/ >
-                        <Wallet/ >
+                        <Sidebar/>
+                        <Wallet/>
                     </ContainerNav>
-
-                </Div>
-
+                </div>
             </ParentDiv>
-
-
         </React.Fragment>
     )
 }

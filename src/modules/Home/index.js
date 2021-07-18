@@ -1,11 +1,5 @@
-/**
- * /* eslint-disable
- *
- * @format
- */
-
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
+import React, { Component } from "react";
+import { connect } from "react-redux";
 
 class Home extends Component {
   constructor(props) {
@@ -13,11 +7,11 @@ class Home extends Component {
     this.state = {};
   }
 
-  componentDidMount() {}
+  // componentDidMount() {}
 
-  componentDidUpdate(prevProps, prevState) {}
+  // componentDidUpdate(prevProps, prevState) {}
 
-  componentWillUnmount() {}
+  // componentWillUnmount() {}
 
   render() {
     return <div>Hello World</div>;
@@ -25,7 +19,7 @@ class Home extends Component {
 }
 
 function mapStateToProps(state) {
-  return {};
+  return state;
 }
 
 export default connect(mapStateToProps)(Home);

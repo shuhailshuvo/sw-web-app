@@ -1,12 +1,6 @@
-/**
- * /* eslint-disable
- *
- * @format
- */
-
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import ParentComponent from '../../components/ParentComponent/ParenComponentElement.jsx';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import ParentComponent from "../../components/ParentComponent";
 
 class Wallet extends Component {
   constructor(props) {
@@ -14,23 +8,23 @@ class Wallet extends Component {
     this.state = {};
   }
 
-  componentDidMount() {}
+  // componentDidMount() {}
 
-  componentDidUpdate(prevProps, prevState) {}
+  // componentDidUpdate(prevProps) {}
 
-  componentWillUnmount() {}
+  // componentWillUnmount() {}
 
   render() {
     return (
-      <React.Fragment>
+      <>
         <ParentComponent />
-      </React.Fragment>
+      </>
     );
   }
 }
 
 function mapStateToProps(state) {
-  return {};
+  return state;
 }
 
 export default connect(mapStateToProps)(Wallet);

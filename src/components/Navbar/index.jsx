@@ -1,26 +1,20 @@
 import React from 'react';
-import { Nav, NavLink, Bars, Picture, ProfileImage } from './NavbarElement';
-import logo from '../../assets/Image/logo.png';
-import userLogo from '../../assets/Image/userLogo.png';
+import logo from '../../assets/images/logo.png';
+import userIcon from '../../assets/images/userLogo.png';
+import { Bars, Nav, NavLink, Picture, ProfileImage } from './NavbarElement';
 
 const Navbar = () => {
     return (
         <React.Fragment>
-                    <Nav>
-                        <NavLink to="/">
-                            <img src={logo} />
-
-                        </NavLink>
-                        <Bars />
-
-                        <Picture>
-                            <ProfileImage src={userLogo}></ProfileImage>
-
-                        </Picture>
-
-                    </Nav>
-
-
+            <Nav>
+                <NavLink to="/">
+                    <img src={logo} />
+                </NavLink>
+                <Bars />
+                <Picture>
+                    <ProfileImage src={userIcon}></ProfileImage>
+                </Picture>
+            </Nav>
         </React.Fragment>
     )
 }
