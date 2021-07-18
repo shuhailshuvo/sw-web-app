@@ -1,6 +1,11 @@
-/* eslint-disable */
-import React, { Component } from "react";
-import { connect } from "react-redux";
+/**
+ * /* eslint-disable
+ *
+ * @format
+ */
+
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 class Home extends Component {
   constructor(props) {
