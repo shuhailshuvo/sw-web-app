@@ -1,0 +1,22 @@
+.sideBar {
+    list-style-type: none;
+    height: 42%;
+    width: 20vh;
+    overflow: hidden;
+  }
+
+.sideBar img {
+    display: inline;
+    max-width: 10vh;
+    max-width: 10vh;
+    padding: 10px 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 01);
+  }
+
+.sideBar li {
+    display: inline;
+    color: #000;
+    padding: 10px 10px;
+  }
