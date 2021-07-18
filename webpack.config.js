@@ -1,7 +1,6 @@
 /** @format */
 
 const webpack = require("webpack");
-// eslint-disable-next-line import/no-extraneous-dependencies
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
