@@ -20,7 +20,7 @@ class Home extends Component {
   componentWillUnmount() {}
 
   render() {
-    return <div>hi there how are you. I am from Home</div>;
+    return <div>Hello World</div>;
   }
 }
 
