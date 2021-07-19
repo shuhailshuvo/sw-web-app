@@ -1,7 +1,6 @@
 import React from 'react';
 import { Nav, Navbar, Form, FormControl } from 'react-bootstrap';
 import styled from 'styled-components';
-import logo from '../logo.png';
 import userLogo from '../userLogo.png';
 
 const Styles = styled.div`
@@ -38,7 +37,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg">
-      <Navbar.Brand href="/"><img className="log" src={logo} /></Navbar.Brand>
+      <Navbar.Brand href="/"><img className="log" src="/logo.png" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../assets/css/Login.module.css";
-import logo from "../assets/images/logo.png";
 
 export default class Signup extends React.Component {
   constructor(props) {
@@ -39,7 +38,7 @@ export default class Signup extends React.Component {
       <>
         <div className={styles.container1}>
           <div className={styles.container6}>
-            <img src={logo} alt='Logo' />
+            <img src="/logo.png" alt='Logo' />
           </div>
         </div>
         <div className={styles.container2}>

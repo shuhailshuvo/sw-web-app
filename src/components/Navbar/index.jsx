@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../../assets/images/logo.png';
 import userIcon from '../../assets/images/userLogo.png';
 import { Bars, Nav, NavLink, Picture, ProfileImage } from './NavbarElement';
 
@@ -8,7 +7,7 @@ const Navbar = () => {
         <React.Fragment>
             <Nav>
                 <NavLink to="/">
-                    <img alt="logo" src={logo} />
+                    <img alt="logo" src="/logo.png" />
                 </NavLink>
                 <Bars />
                 <Picture>
