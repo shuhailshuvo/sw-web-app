@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import Logo from "../../assets/images/logo.png";
 import Button from "../../components/Button";
 import Link from "../../components/Link";
 import "./index.css";
@@ -36,7 +35,7 @@ class Login extends Component {
       <>
         <div className="container1">
           <div className="container6">
-            <img src={Logo} alt='Logo' />
+            <img src="/logo.png" alt='Logo' />
           </div>
         </div>
         <div className="container2">

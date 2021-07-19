@@ -8,7 +8,6 @@ import product2 from "../../assets/images/product2.jpg";
 import product3 from "../../assets/images/product3.png";
 import trolley from "../../assets/images/trolley.png";
 import user from "../../assets/images/userLogo.png";
-import logo from "../../assets/images/wallet.png";
 import walletLogo from "../../assets/images/walletLogo.png";
 
 class Product extends Component {
@@ -28,7 +27,7 @@ class Product extends Component {
       <div className='firstContainer'>
         <div className='secondContainer'>
           <div className='horizontalBar'>
-            <img src={logo} alt='Logo' />
+            <img src="/logo.png" alt='Logo' />
 
             <img className='user' src={user} alt='User' />
           </div>
