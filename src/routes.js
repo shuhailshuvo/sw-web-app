@@ -9,9 +9,9 @@ import Wallet from "./modules/Wallet";
 export default (
   <div>
     <Switch>
-      <Route exact path='/' component={Login} />
-      <Route exact path='/login' component={Login} />
-      <Route exact path='/signup' component={Signup} />
+      <Route exact path='https://shuhailshuvo.github.io/sw-web-app/' component={Login} />
+      <Route exact path='https://shuhailshuvo.github.io/sw-web-app/login' component={Login} />
+      <Route exact path='https://shuhailshuvo.github.io/sw-web-app/signup' component={Signup} />
       <AppRoute exact path='/products' component={Product} />
       <AppRoute exact path='/wallet' component={Wallet} />
     </Switch>
