@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import styles from "../../assets/css/Login.module.css";
 import Logo from "../../assets/images/logo.png";
 import Button from "../../components/Button";
 import Link from "../../components/Link";
+import "./index.css";
 
 class Login extends Component {
   constructor(props){
@@ -34,18 +34,18 @@ class Login extends Component {
     const { email, password } = this.state;
     return (
       <>
-        <div className={styles.container1}>
-          <div className={styles.container6}>
+        <div className="container1">
+          <div className="container6">
             <img src={Logo} alt='Logo' />
           </div>
         </div>
-        <div className={styles.container2}>
-          <div className={styles.formContainer}>
-            <form className={styles.InputForm} onSubmit={this.submitHandler}>
-              <div id={styles.element1}>
+        <div className="container2">
+          <div className="formContainer">
+            <form className="InputForm" onSubmit={this.submitHandler}>
+              <div id="element1">
                 <h3>Log In</h3>
               </div>
-              <div className={styles.Inputs}>
+              <div className="Inputs">
                 <label htmlFor='email'>
                   Email
                   <input
