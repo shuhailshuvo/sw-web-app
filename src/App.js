@@ -1,5 +1,3 @@
-/** @format */
-
 import { createBrowserHistory } from "history";
 import React from "react";
 import { Provider } from "react-redux";

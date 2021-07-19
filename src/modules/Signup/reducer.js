@@ -1,7 +1,7 @@
 import { LOGGING_IN } from "./actions";
 
 const initialState = {
-  isLoggedIn: false,
+  loggingIn: false,
 };
 
 function loginReducer(state = initialState, action) {
@@ -9,7 +9,7 @@ function loginReducer(state = initialState, action) {
     case LOGGING_IN:
       return {
         ...state,
-        isLoggedIn: true,
+        loggingIn: true,
       };
     default:
       return state;

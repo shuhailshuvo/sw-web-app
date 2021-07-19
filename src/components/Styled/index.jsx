@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ParentDiv = styled.div`
+export const AppContainer = styled.div`
   background-color: rgba(26, 235, 182, 255);;
   position: fixed;
 `
