@@ -6,7 +6,7 @@ import { PersistGate } from "redux-persist/es/integration/react";
 import routes from "./routes";
 import { persistor, store } from "./Store";
 
-const history = createBrowserHistory();
+const history = createBrowserHistory({ basename: 'https://shuhailshuvo.github.io/sw-web-app' });
 
 export default function App() {
   return (
