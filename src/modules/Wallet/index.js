@@ -1,12 +1,5 @@
-/**
- * /* eslint-disable
- *
- * @format
- */
-
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import ParentComponent from '../../components/ParentComponent/ParenComponentElement.jsx';
+import React, { Component } from "react";
+import { connect } from "react-redux";
 
 class Wallet extends Component {
   constructor(props) {
@@ -14,23 +7,57 @@ class Wallet extends Component {
     this.state = {};
   }
 
-  componentDidMount() {}
+  // componentDidMount() {}
 
-  componentDidUpdate(prevProps, prevState) {}
+  // componentDidUpdate(prevProps) {}
 
-  componentWillUnmount() {}
+  // componentWillUnmount() {}
 
   render() {
     return (
-      <React.Fragment>
-        <ParentComponent />
-      </React.Fragment>
+      <>
+        <table>
+                        <tr className="backcolor">
+                            <td >
+                            
+                            </td>
+                        </tr>
+                        <tr className="border">
+                            <th>
+                                <h3 className="textheading">USD</h3>
+                                <h4>11,970.35</h4>
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>1359 8674 3200 3659</td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr className="backcolor">
+                            <td>
+                            
+                            </td>
+                        </tr>
+                        <tr className="border">
+                            <th >
+                                <h3 className="textheading">BDT</h3>
+                                <h4>6,86,58,155.00</h4>
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>1359 8674 3200 3660</td>
+                        </tr>
+                    </table>
+      </>
     );
   }
 }
 
 function mapStateToProps(state) {
-  return {};
+  return state;
 }
 
 export default connect(mapStateToProps)(Wallet);

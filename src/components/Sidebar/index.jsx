@@ -1,9 +1,9 @@
 import React from 'react';
-import { SideDiv, SideMenu, SideNav, Picture, ProfileImage } from './SidebarElement';
-import home from '../../assets/Image/home.png';
-import walletLogo from '../../assets/Image/walletLogo.png';
-import trolley from '../../assets/Image/trolley.png';
+import home from '../../assets/images/home.png';
+import trolley from '../../assets/images/trolley.png';
+import walletLogo from '../../assets/images/walletLogo.png';
 import './sidebar.style.css';
+import { SideDiv } from './SidebarElement';
 
 const Sidebar = () => {
     return (
