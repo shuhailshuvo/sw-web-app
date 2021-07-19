@@ -8,7 +8,7 @@ const Navbar = () => {
         <React.Fragment>
             <Nav>
                 <NavLink to="/">
-                    <img src={logo} />
+                    <img alt="logo" src={logo} />
                 </NavLink>
                 <Bars />
                 <Picture>
