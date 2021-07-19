@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20794b54.chunk.css",
+    "main.js": "/static/js/main.18a938bd.chunk.js",
+    "main.js.map": "/static/js/main.18a938bd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1a0692fa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1a0692fa.js.map",
+    "static/js/2.ff8c2469.chunk.js": "/static/js/2.ff8c2469.chunk.js",
+    "static/js/2.ff8c2469.chunk.js.map": "/static/js/2.ff8c2469.chunk.js.map",
+    "static/js/3.f5367749.chunk.js": "/static/js/3.f5367749.chunk.js",
+    "static/js/3.f5367749.chunk.js.map": "/static/js/3.f5367749.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.20794b54.chunk.css.map": "/static/css/main.20794b54.chunk.css.map",
+    "static/js/2.ff8c2469.chunk.js.LICENSE.txt": "/static/js/2.ff8c2469.chunk.js.LICENSE.txt",
+    "static/media/product1.5ac304b6.jpg": "/static/media/product1.5ac304b6.jpg",
+    "static/media/product2.2bdfc321.jpg": "/static/media/product2.2bdfc321.jpg",
+    "static/media/product3.ddf9a2ef.png": "/static/media/product3.ddf9a2ef.png",
+    "static/media/trolley.9f48851d.png": "/static/media/trolley.9f48851d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a0692fa.js",
+    "static/js/2.ff8c2469.chunk.js",
+    "static/css/main.20794b54.chunk.css",
+    "static/js/main.18a938bd.chunk.js"
+  ]
+}
