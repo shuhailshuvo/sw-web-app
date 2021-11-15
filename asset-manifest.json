@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/sw-web-app/static/css/main.20794b54.chunk.css",
-    "main.js": "/sw-web-app/static/js/main.f94ce244.chunk.js",
-    "main.js.map": "/sw-web-app/static/js/main.f94ce244.chunk.js.map",
-    "runtime-main.js": "/sw-web-app/static/js/runtime-main.fde0a980.js",
-    "runtime-main.js.map": "/sw-web-app/static/js/runtime-main.fde0a980.js.map",
-    "static/js/2.7403062a.chunk.js": "/sw-web-app/static/js/2.7403062a.chunk.js",
-    "static/js/2.7403062a.chunk.js.map": "/sw-web-app/static/js/2.7403062a.chunk.js.map",
-    "static/js/3.f5367749.chunk.js": "/sw-web-app/static/js/3.f5367749.chunk.js",
-    "static/js/3.f5367749.chunk.js.map": "/sw-web-app/static/js/3.f5367749.chunk.js.map",
+    "main.js": "/sw-web-app/static/js/main.a8669dba.chunk.js",
+    "main.js.map": "/sw-web-app/static/js/main.a8669dba.chunk.js.map",
+    "runtime-main.js": "/sw-web-app/static/js/runtime-main.8fac2158.js",
+    "runtime-main.js.map": "/sw-web-app/static/js/runtime-main.8fac2158.js.map",
+    "static/js/2.011fc291.chunk.js": "/sw-web-app/static/js/2.011fc291.chunk.js",
+    "static/js/2.011fc291.chunk.js.map": "/sw-web-app/static/js/2.011fc291.chunk.js.map",
+    "static/js/3.30684777.chunk.js": "/sw-web-app/static/js/3.30684777.chunk.js",
+    "static/js/3.30684777.chunk.js.map": "/sw-web-app/static/js/3.30684777.chunk.js.map",
     "index.html": "/sw-web-app/index.html",
     "static/css/main.20794b54.chunk.css.map": "/sw-web-app/static/css/main.20794b54.chunk.css.map",
-    "static/js/2.7403062a.chunk.js.LICENSE.txt": "/sw-web-app/static/js/2.7403062a.chunk.js.LICENSE.txt",
+    "static/js/2.011fc291.chunk.js.LICENSE.txt": "/sw-web-app/static/js/2.011fc291.chunk.js.LICENSE.txt",
     "static/media/product1.5ac304b6.jpg": "/sw-web-app/static/media/product1.5ac304b6.jpg",
     "static/media/product2.2bdfc321.jpg": "/sw-web-app/static/media/product2.2bdfc321.jpg",
     "static/media/product3.ddf9a2ef.png": "/sw-web-app/static/media/product3.ddf9a2ef.png",
     "static/media/trolley.9f48851d.png": "/sw-web-app/static/media/trolley.9f48851d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fde0a980.js",
-    "static/js/2.7403062a.chunk.js",
+    "static/js/runtime-main.8fac2158.js",
+    "static/js/2.011fc291.chunk.js",
     "static/css/main.20794b54.chunk.css",
-    "static/js/main.f94ce244.chunk.js"
+    "static/js/main.a8669dba.chunk.js"
   ]
 }
